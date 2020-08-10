@@ -33,7 +33,7 @@ fieldset {
     flex-flow: column nowrap;
     border-width: 3px;
     border-color: black;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 fieldset label {
@@ -41,17 +41,17 @@ fieldset label {
 }
 
 .personalData fieldset > * {
-    margin: 2px 5px;
+    /* margin: 2px 5px; */
 }
 
 
 .products fieldset > * {
-    margin: 5px 5px;
+    /* margin: 5px 5px; */
 }
 
 /* same height as first fieldset */
 .products fieldset legend {
-    margin: 2px 5px
+    /* margin: 2px 5px */
 }
 
 legend {
