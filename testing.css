@@ -29,28 +29,29 @@ main {
 }
 
 fieldset {
+    display: flex;
+    flex-flow: column nowrap;
     border-width: 3px;
     border-color: black;
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
-label {
+fieldset label {
     font-weight: bold;
-    /* why margin/padding do not work? */
 }
 
-fieldset input[type="text"],
-fieldset input[type="email"],
-input[type="date"],
-textarea,
-select {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 10px;
+.personalData fieldset > * {
+    margin: 2px 5px;
 }
 
-section {
-    margin-bottom: 10px;
+
+.products fieldset > * {
+    margin: 5px 5px;
+}
+
+/* same height as first fieldset */
+.products fieldset legend {
+    margin: 2px 5px
 }
 
 legend {
