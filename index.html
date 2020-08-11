@@ -15,10 +15,13 @@
     </header>
 
     <main>
-        <section class="personalData">
-            <form action="#" method="get">
+
+        <form action="#" method="get">
+
+            <section class="personalData">
 
                 <fieldset>
+
                     <legend>Personal Data</legend>
 
                     <label for="firstName">First name:</label>
@@ -35,39 +38,37 @@
 
                     <label for="city">City:</label>
                     <input type="text" name="city" id="city">
-                    
-                    
+
+
                     <label for="phone">Phone:</label>
                     <input type="text" name="phone" id="phone">
-                    
-                    
+
+
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email">
-                    
-                    
+
+
                     <label for="comments">Comments:</label>
                     <textarea name="comments" id="comments" cols="30" rows="5"
-                        placeholder="Tell us more about important colors, etc."></textarea><br>
+                        placeholder="Tell us more about important colors, etc.">
+                    </textarea>
+
                 </fieldset>
 
-            </form>
-        </section>
+            </section>
 
-
-        <section class="products">
-
-            <form action="#" method="get">
+            <section class="products">
 
                 <fieldset>
+
                     <legend>Products</legend>
 
                     <label>Web Design:</label>
-                    
-                       <section>
-                            <input type="radio" name="webDesign" value="individual" checked="checked"> Individual
-                            <input type="radio" name="webDesign" value="template"> Template
-                       </section>
-                    
+                    <section>
+                        <input type="radio" name="webDesign" value="individual" checked="checked"> Individual
+                        <input type="radio" name="webDesign" value="template"> Template
+                    </section>
+
 
                     <label>Web Development:</label>
                     <section>
@@ -76,34 +77,30 @@
                         <input type="checkbox" name="webDevelopment" value="mongodb"> MongoDB
                     </section>
 
+                    <label for="projectStart">Project Start:</label>
+                    <input type="date" name="projectStart" id="projectStart" value="mm/dd/yyyy">
 
-                    
-                        <label for="projectStart">Project Start:</label>
-                        <input type="date" name="projectStart" id="projectStart" value="mm/dd/yyyy">
-                    
-
-                    
-                        <label for="projectEnd">Project End:</label>
-                        <input type="date" name="projectEnd" id="projectEnd" value="mm/dd/yyyy">
-                    
-
+                    <label for="projectEnd">Project End:</label>
+                    <input type="date" name="projectEnd" id="projectEnd" value="mm/dd/yyyy">
 
                     <label>Category:</label>
-                    
-                        <select name="category">
-                            <option value="personal">Personal</option>
-                            <option value="business">Business</option>
-                        </select>
-                   
+                    <select name="category">
+                        <option value="personal">Personal</option>
+                        <option value="business">Business</option>
+                    </select>
 
                 </fieldset>
-            </form>
 
-            <input type="submit" value="Order our services">
 
-        </section>
+
+                <input type="submit" value="Order our services">
+
+            </section>
+
+        </form>
 
     </main>
+
 </body>
 
 </html>
