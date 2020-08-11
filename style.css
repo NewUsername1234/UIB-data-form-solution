@@ -44,6 +44,7 @@ fieldset input[type="email"],
 input[type="date"],
 textarea,
 select {
+    display: block;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
