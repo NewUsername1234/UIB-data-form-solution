@@ -38,6 +38,7 @@ fieldset {
 
 fieldset label {
     font-weight: bold;
+    display: block;
 }
 
 .personalData fieldset > * {
