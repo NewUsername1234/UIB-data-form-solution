@@ -33,26 +33,21 @@ fieldset {
     flex-flow: column nowrap;
     border-width: 3px;
     border-color: black;
-    padding: 10px 0;
+    padding: 20px 20px;
 }
 
 fieldset label {
     font-weight: bold;
     display: block;
+    margin-top: 10px;
 }
 
-.personalData fieldset > * {
-    margin: 2px 5px;
-}
-
-
-.products fieldset > * {
-    margin: 5px 5px;
-}
-
-/* same height as first fieldset */
-.products fieldset legend {
-    margin: 2px 5px
+input[type="text"], 
+input[type="email"],
+textarea,
+input[type="date"],
+select {
+    width: 100%;
 }
 
 legend {
